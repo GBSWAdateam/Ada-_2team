@@ -1,0 +1,29 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 0.5px solid #353479;
+}
+
+.Header_navi{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header_link{
+    align-self: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .Header_navi{
+        display: none;
+    }
+    
+}
