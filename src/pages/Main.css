@@ -1,4 +1,4 @@
-.Main_mainImg_container{
+.Main_mainImg_container {
     overflow: hidden;
     width: 100%;
     margin: 0;
@@ -9,7 +9,7 @@
     border-bottom: 0.5px solid #353479;
 }
 
-.Main_mainImg_text{
+.Main_mainImg_text {
     position: absolute;
     display: block;
     top: 60px;
@@ -18,4 +18,104 @@
     font-weight: bold;
 
     -webkit-text-stroke: 1.3px black;
+}
+
+.RecentPath {
+    border-radius: 10px;
+    border: 1px solid #0021f5;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.recentRoot {
+    display: flex;
+    padding-left: 7%;
+}
+.recentRoot h2 {
+    font-size: 30px;
+    color: #050507;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.station1 {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.RecentPath p {
+    font-size: 20px;
+    color: #050507;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.RecentPathcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.image-button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.learn-more-button {
+    width: 20px; /* 원하는 크기로 조절 */
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.image-button {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    margin-right: -2.5px;
+}
+.delete-button {
+    width: 19px;
+    height: 19px;
+    border: 1px solid #0021f5;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    float: right;
+}
+
+.text {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.details p {
+    font-size: 20px;
+    color: #050507;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.VerticalBar {
+    display: flex;
+    justify-content: center;
+}
+.review {
+    display: flex;
+    justify-content: center;
 }
