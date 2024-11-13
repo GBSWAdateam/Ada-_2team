@@ -190,6 +190,15 @@ const Main = () => {
                     ></img>
                 </div>
             </div>
+            <footer className="footer">
+                <div className="footer_text">
+                    <p>tel. 054-000-0000</p>
+                    <p>
+                        © 경상북도 의성군 봉양면 봉호로 14
+                        (경북소프트웨어고등학교)
+                    </p>
+                </div>
+            </footer>
         </div>
     );
 };
