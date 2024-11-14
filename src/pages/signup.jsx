@@ -21,9 +21,6 @@ const LoginForm = () => {
 
     return (
         <section>
-            <div className="third"></div>
-            <div className="fourth"></div>
-
             <div className="form-box">
                 <div className="form-value">
                     <form onSubmit={checkPassword}>
