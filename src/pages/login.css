@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-section {
+.sectionlogin {
     position: relative;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ section {
     overflow: hidden;
 }
 
-section::before {
+.sectionlogin::before {
     content: "";
     position: absolute;
     top: 0;

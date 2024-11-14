@@ -6,7 +6,7 @@ import "./login.css";
 
 const LoginForm = () => {
     return (
-        <section>
+        <section className="sectionlogin">
             <div className="form-box">
                 <div className="form-value">
                     <form action="">
