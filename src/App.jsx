@@ -3,7 +3,7 @@ import LoginForm from "./pages/login";
 import Signup from "./pages/signup";
 import Description from "./pages/Description";
 import SavePath from "./pages/SavePath";
-import Main from "./pages/login";
+import Main from "./pages/Main";
 
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
@@ -11,7 +11,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
     return (
         <div>
-            <LoginForm />
+            <Main />
         </div>
     );
 }
