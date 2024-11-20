@@ -1,5 +1,6 @@
 import React from "react";
 import "./map.css";
+
 const Map = () => {
     return (
         <div className="RecentPath">

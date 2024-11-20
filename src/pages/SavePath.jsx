@@ -1,11 +1,19 @@
-import './SavePath.css'
-
+import "./SavePath.css";
+import React from "react";
+import Header from "../components/Header";
+import Mapitem from "../components/map";
 const SavePath = () => {
-    return(
+    return (
         <div className="SavePath">
-            저장한 경로보기
+            <Header />
+
+            <Mapitem />
+            <Mapitem />
+            <Mapitem />
+            <Mapitem />
+            <Mapitem />
         </div>
-    )
-}
+    );
+};
 
 export default SavePath;
