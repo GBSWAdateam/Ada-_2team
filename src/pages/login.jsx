@@ -29,7 +29,9 @@ const LoginForm = () => {
                                 <a href="#">Forgot password?</a>
                             </label>
                         </div>
-                        <button type="submit">Log in</button>
+                        <button type="submit" className="but">
+                            Log in
+                        </button>
                         <div className="register">
                             <p>
                                 Don't have an account? <a href="#">Register</a>

@@ -101,7 +101,7 @@ input:valid ~ label {
     top: 20px;
 }
 
-button {
+.but {
     width: 100%;
     height: 40px;
     border-radius: 40px;

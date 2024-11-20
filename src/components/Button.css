@@ -1,4 +1,4 @@
-.Button{
+.Button {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -8,16 +8,16 @@
     border-radius: 30px;
 }
 
-.Button:hover{
+.Button:hover {
     cursor: pointer;
 }
 
-.Button_blueButton{
-    background-color: #0021F5;
+.Button_blueButton {
+    background-color: #0021f5;
     color: white;
 }
 
-.Button_whiteButton{
+.Button_whiteButton {
     background-color: white;
     color: black;
 }

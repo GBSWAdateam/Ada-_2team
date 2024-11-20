@@ -1,5 +1,7 @@
 import "./Main.css";
 import Header from "../components/Header";
+import Maincontainer from "../components/Main_container";
+import Mapitem from "../components/map";
 
 const review = [
     {
@@ -30,156 +32,15 @@ const Main = () => {
     return (
         <div className="Main">
             <Header />
-            <div className="Main_mainImg_container">
-                <img
-                    src="/images/zigtong_mainImg.png"
-                    alt="메인 이미지"
-                    style={{
-                        width: "100%",
-                        height: "200px",
-                        objectFit: "cover",
-                    }}
-                />
-                <p className="Main_mainImg_text">
-                    우리와 함께라면 어디든 갈 수 있어요!
-                </p>
-            </div>
+            <Maincontainer />
             <div className="recentRoot">
                 <h2>최근 저장된 경로</h2>
             </div>
             <div className="RecentPathcontainer">
-                <div className="RecentPath">
-                    <div className="button">
-                        <div className="delete-button">
-                            <img
-                                src="/images/delbut.svg"
-                                alt="Delete button"
-                                class="image-button"
-                            ></img>
-                        </div>
-                        <img
-                            src="/images/Learn morebut.svg"
-                            alt="Learn more button"
-                            class="learn-more-button"
-                        ></img>
-                    </div>
-
-                    <div className="text">
-                        <p>서울역</p>
-                        <img
-                            className="station1"
-                            src="/images/Double arrow.svg"
-                            alt="서울역"
-                            style={{ width: "20px", height: "18px" }}
-                        />
-                        <p>동서울 터미널</p>
-                    </div>
-
-                    <div className="details">
-                        <p>₩ 100,000 </p>
-                        <p className="VerticalBar"> | </p>
-                        <p> 1 days</p>
-                    </div>
-                </div>{" "}
-                <div className="RecentPath">
-                    <div className="button">
-                        <div className="delete-button">
-                            <img
-                                src="/images/delbut.svg"
-                                alt="Delete button"
-                                class="image-button"
-                            ></img>
-                        </div>
-                        <img
-                            src="/images/Learn morebut.svg"
-                            alt="Learn more button"
-                            class="learn-more-button"
-                        ></img>
-                    </div>
-
-                    <div className="text">
-                        <p>서울역</p>
-                        <img
-                            className="station1"
-                            src="/images/Double arrow.svg"
-                            alt="서울역"
-                            style={{ width: "20px", height: "18px" }}
-                        />
-                        <p>동서울 터미널</p>
-                    </div>
-
-                    <div className="details">
-                        <p>₩ 100,000 </p>
-                        <p className="VerticalBar"> | </p>
-                        <p> 1 days</p>
-                    </div>
-                </div>{" "}
-                <div className="RecentPath">
-                    <div className="button">
-                        <div className="delete-button">
-                            <img
-                                src="/images/delbut.svg"
-                                alt="Delete button"
-                                class="image-button"
-                            ></img>
-                        </div>
-                        <img
-                            src="/images/Learn morebut.svg"
-                            alt="Learn more button"
-                            class="learn-more-button"
-                        ></img>
-                    </div>
-
-                    <div className="text">
-                        <p>서울역</p>
-                        <img
-                            className="station1"
-                            src="/images/Double arrow.svg"
-                            alt="서울역"
-                            style={{ width: "20px", height: "18px" }}
-                        />
-                        <p>동서울 터미널</p>
-                    </div>
-
-                    <div className="details">
-                        <p>₩ 100,000 </p>
-                        <p className="VerticalBar"> | </p>
-                        <p> 1 days</p>
-                    </div>
-                </div>{" "}
-                <div className="RecentPath">
-                    <div className="button">
-                        <div className="delete-button">
-                            <img
-                                src="/images/delbut.svg"
-                                alt="Delete button"
-                                class="image-button"
-                            ></img>
-                        </div>
-                        <img
-                            src="/images/Learn morebut.svg"
-                            alt="Learn more button"
-                            class="learn-more-button"
-                        ></img>
-                    </div>
-
-                    <div className="text">
-                        <p>서울역</p>
-                        <img
-                            className="station1"
-                            src="/images/Double arrow.svg"
-                            alt="서울역"
-                            style={{ width: "20px", height: "18px" }}
-                        />
-                        <p>동서울 터미널</p>
-                    </div>
-
-                    <div className="details">
-                        <p>₩ 100,000 </p>
-                        <p className="VerticalBar"> | </p>
-                        <p> 1 days</p>
-                    </div>
-                </div>
+                <Mapitem />
+                <Mapitem />
+                <Mapitem />
+                <Mapitem />
             </div>
             <div className="review_container">
                 <div className="review">
@@ -187,7 +48,7 @@ const Main = () => {
                         src="/images/mainpagereview.png"
                         alt="광안대교, 도시를 품다"
                         style={{ width: "1350px" }}
-                    ></img>
+                    />
                 </div>
             </div>
             <footer className="footer">

@@ -119,7 +119,7 @@ input:valid ~ label {
     text-decoration: underline;
 }
 
-button {
+.but {
     width: 100%;
     height: 40px;
     border-radius: 40px;

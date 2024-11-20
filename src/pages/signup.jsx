@@ -52,7 +52,9 @@ const LoginForm = () => {
                             <input type="password" required ref={pw2ck} />
                             <label>Password Check</label>
                         </div>
-                        <button type="submit">Sign Up</button>
+                        <button type="submit" className="but">
+                            Sign Up
+                        </button>
                     </form>
                 </div>
             </div>

@@ -11,10 +11,17 @@ import { Routes, Route } from "react-router-dom";
 function App() {
     return (
         <div>
-            <Signup />
+            <Routes>
+                <Route path="/" element={<Main />} />
+                <Route path="/zigtongDesc" element={<Description />} />
+                <Route path="/savePath" element={<SavePath />} />
+                <Route path="/signup" element={<Signup />} />
+                <Route path="/login" element={<LoginForm />} />
+            </Routes>
         </div>
     );
 }
+
 // function App() {
 //     return (
 //         <Routes>
