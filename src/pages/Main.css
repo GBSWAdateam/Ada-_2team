@@ -92,6 +92,13 @@
     display: flex;
     justify-content: center;
 }
+
+.review img {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 .footer {
     height: 100px;
     padding: 40px;
@@ -112,12 +119,6 @@
 @media (max-width: 768px) {
     .Main_mainImg_text {
         font-size: 27px;
-    }
-
-    .RecentPath {
-        width: 300px;
-        height: 150px;
-        margin: 20px;
     }
 
     .RecentPathcontainer {
@@ -149,7 +150,6 @@
     }
 
     .footer {
-        /* flex-direction: column; */
         text-align: center;
     }
 
