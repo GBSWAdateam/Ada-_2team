@@ -68,43 +68,27 @@
 /* 반응형 스타일 */
 @media (max-width: 768px) {
     .RecentPath {
-        width: 90%;
         height: auto;
         margin: 10px 0;
     }
 
     .RecentPathcontainer {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
 
     .text {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
 
     .details {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         gap: 10px;
     }
 
     .details p {
         font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .RecentPath {
-        width: 95%;
-        margin: 5px 0;
-    }
-
-    .RecentPathcontainer {
-        padding: 0 10px;
-    }
-
-    .details p {
-        font-size: 14px;
     }
 }
