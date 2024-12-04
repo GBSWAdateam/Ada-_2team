@@ -3,14 +3,14 @@
     border: 1px solid #0021f5;
     justify-content: center;
     margin: 20px;
-    width: 300px;
+    min-width: 300px;
     height: 150px;
 }
-.RecentPathcontainer {
+/* .RecentPathcontainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
 
 .image-button {
     width: 14px;

@@ -1,5 +1,4 @@
 /* 기본 스타일은 그대로 유지 */
-
 .RecentPath {
     border-radius: 10px;
     border: 1px solid #0021f5;
@@ -24,8 +23,11 @@
     padding-right: 20px;
 }
 .RecentPathcontainer {
+    align-items: flex-start;
+    height: 210px;
+    overflow-x: scroll;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 

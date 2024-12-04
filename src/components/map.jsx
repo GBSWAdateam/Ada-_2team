@@ -1,7 +1,7 @@
 import React from "react";
 import "./map.css";
 
-const Map = () => {
+const Map = ({ start, end, money, day }) => {
     return (
         <div className="RecentPath">
             <div className="button">
@@ -19,19 +19,19 @@ const Map = () => {
                 />
             </div>
             <div className="text">
-                <p>서울역</p>
+                <p>{start}</p>
                 <img
                     className="station1"
                     src="/images/Double arrow.svg"
                     alt="서울역"
                     style={{ width: "20px", height: "18px" }}
                 />
-                <p>동서울 터미널</p>
+                <p>{end}</p>
             </div>
             <div className="details">
-                <p>₩ 100,000</p>
+                <p>₩ {money}</p>
                 <p className="VerticalBar"> | </p>
-                <p>1 days</p>
+                <p>{day} days</p>
             </div>
         </div>
     );
