@@ -23,12 +23,18 @@
     padding-right: 20px;
 }
 .RecentPathcontainer {
-    align-items: flex-start;
-    height: 210px;
-    overflow-x: scroll;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    overflow-x: auto; /* 가로 스크롤 활성화 */
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
+    height: 210px; /* 높이 설정 */
+    margin: 10px;
+}
+
+.RecentPathcontainer::-webkit-scrollbar {
+    display: none; /* Safari와 Chrome에서 스크롤바 숨기기 */
 }
 
 .image-button {
