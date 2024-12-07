@@ -9,17 +9,17 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
-    return (
-        <div>
-            <Routes>
-                <Route path="/" element={<Main />} />
-                <Route path="/zigtongDesc" element={<Description />} />
-                <Route path="/savePath" element={<SavePath />} />
-                <Route path="/signup" element={<Signup />} />
-                <Route path="/login" element={<LoginForm />} />
-            </Routes>
-        </div>
-    );
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/zigtongDesc" element={<Description />} />
+        <Route path="/savePath" element={<SavePath />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<LoginForm />} />
+      </Routes>
+    </div>
+  );
 }
 
 // function App() {

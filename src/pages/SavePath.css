@@ -1,11 +1,32 @@
 .SavePath {
-    padding: 20px;
-    font-family: Arial, sans-serif;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
 .path-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 한 줄에 4개씩 배치 */
+  gap: 20px;
+  margin-top: 20px;
+  width: 80%; /* 그리드의 전체 너비를 80%로 설정하여 양옆에 공간을 만듦 */
+  margin-left: auto; /* 왼쪽 여백을 자동으로 */
+  margin-right: auto; /* 오른쪽 여백을 자동으로 */
+}
+
+@media (max-width: 1400px) {
+  .path-grid {
+    grid-template-columns: repeat(3, 1fr); /* 한 줄에 3개 */
+  }
+}
+
+@media (max-width: 1000px) {
+  .path-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 770px) {
+  .path-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

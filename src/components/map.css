@@ -1,110 +1,71 @@
 .RecentPath {
-    border-radius: 10px;
-    border: 1px solid #0021f5;
-    justify-content: center;
-    margin: 20px;
-    width: 300px;
-    height: 150px;
+  border-radius: 10px;
+  border: 1px solid #0021f5;
+  justify-content: center;
+  margin: auto;
+  width: 300px;
+  height: 150px;
 }
+
 .RecentPathcontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .image-button {
-    width: 14px;
-    height: 14px;
-    cursor: pointer;
-    margin-right: -2.5px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  margin-right: -2.5px;
 }
+
 .learn-more-button {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
 }
+
 .delete-button {
-    width: 19px;
-    height: 19px;
-    border: 1px solid #0021f5;
-    border-radius: 50%;
-    margin-left: 5px;
-    margin-right: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 19px;
+  height: 19px;
+  border: 1px solid #0021f5;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
-    height: 30px;
-    margin-top: 10px;
-    display: flex;
-    float: right;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  float: right;
 }
 
 .text {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
 
 .details {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
+
 .details p {
-    font-size: 20px;
-    color: #050507;
-    font-weight: bold;
-    margin-top: 10px;
+  font-size: 20px;
+  color: #050507;
+  font-weight: bold;
+  margin-top: 10px;
 }
+
 .VerticalBar {
-    display: flex;
-    justify-content: center;
-}
-
-/* 반응형 스타일 */
-@media (max-width: 768px) {
-    .RecentPath {
-        width: 90%;
-        height: auto;
-        margin: 10px 0;
-    }
-
-    .RecentPathcontainer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .text {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .details {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .details p {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .RecentPath {
-        width: 95%;
-        margin: 5px 0;
-    }
-
-    .RecentPathcontainer {
-        padding: 0 10px;
-    }
-
-    .details p {
-        font-size: 14px;
-    }
+  display: flex;
+  justify-content: center;
 }
