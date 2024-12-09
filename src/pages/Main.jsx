@@ -46,17 +46,15 @@ const Main = () => {
             <div className="recentRoot">
                 <h2>최근 저장된 경로</h2>
             </div>
-            <div className="scoll-x">
-                <div className="RecentPathcontainer">
-                    {map.map((map) => (
-                        <Mapitem
-                            start={map.start}
-                            end={map.end}
-                            money={map.money}
-                            day={map.day}
-                        />
-                    ))}
-                </div>
+            <div className="RecentPathcontainer">
+                {map.map((map) => (
+                    <Mapitem
+                        start={map.start}
+                        end={map.end}
+                        money={map.money}
+                        day={map.day}
+                    />
+                ))}
             </div>
             <div className="review_container">
                 <div className="review">
