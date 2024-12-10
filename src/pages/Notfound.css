@@ -1,0 +1,20 @@
+.Notfound {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+  }
+  
+h1{
+    font-size: 100px;
+    color: #0021f5;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px 2px #000000;
+}
+h2{
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    margin-top: 100px;
+}
